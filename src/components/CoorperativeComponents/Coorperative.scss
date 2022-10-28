@@ -1,0 +1,114 @@
+.coorperative-main {
+    background-color: #0A66B5;
+    box-sizing: border-box;
+    display: flex;
+    padding: 0 9.375% 0 9.375%;
+
+    &-one {
+        max-width: 1440px;
+        margin: 0 auto;
+        height: 100vh;
+        max-height: 850px;
+        // padding-top: 150px;
+
+        &-h1 {
+            color: #fff;
+            font-size: 60px;
+            font-weight: 800;
+            font-family: 'Averta';
+            text-transform: uppercase;
+            width: 930px;
+
+            &-span {
+                color: #F99400;
+            }
+        }
+
+        &-p {
+            font-size: 30px;
+            font-family: 'Averta Demo';
+            font-weight: 400;
+            color: white;
+            line-height: 36.01px;
+            width: 537px;
+            margin: 20px 0;
+        }
+
+        &-btn {
+            button {
+                width: 195px;
+                height: 40px;
+                background: #FFFFFF;
+                border-radius: 26px;
+                border-color: transparent;
+                outline: none;
+                font-family: 'Averta Demo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #070814;
+                cursor: pointer;
+                transition: 1s ease;
+            }
+        }
+
+        &-btn:hover button {
+            background-color: #F99400;
+            transition: 1s ease;
+        }
+    }
+
+    &-img {
+        margin-top: 18%;
+        margin-bottom: -40%;
+        // overflow-x: hidden;
+    }
+}
+
+.coorperative_second {
+    padding: 20% 9.375% 10% 9.375%;
+    // display: flex;
+#right{
+    margin-top: 50px;
+   justify-content: end;
+}
+    &_left {
+        display: flex;
+        align-items: center;
+      
+
+        &_text {
+            justify-content: space-between;
+            margin-left: 2%;
+            width: 25%;
+            &_span {
+                font-family: 'Averta Demo';
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+            &_head {
+                margin-bottom: 30px;
+                font-family: 'Averta';
+                font-size: 30px;
+                font-weight: 800;
+                line-height: 36px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+        }
+
+        &_img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,544 @@
+.career-main {
+    background-color: #0A66B5;
+    box-sizing: border-box;
+    display: flex;
+    // align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 0% 0 9.375%;
+    overflow: hidden;
+   
+    &-one {
+        max-width: 1440px;
+        margin: 0 auto;
+        // height: 100vh;
+        // max-height: 850px;
+
+        &-h1 {
+            color: #fff;
+            font-size: 60px;
+            font-weight: 800;
+            font-family: 'Averta';
+
+            width: 580px;
+
+            &-span {
+                color: #F99400;
+            }
+        }
+
+        &-p {
+            font-size: 30px;
+            font-family: 'Averta Demo';
+            font-weight: 400;
+            color: white;
+            line-height: 36.01px;
+            width: 537px;
+            margin: 20px 0;
+            text-transform: uppercase;
+        }
+
+        &-btn {
+            button {
+                width: 195px;
+                height: 40px;
+                background: #FFFFFF;
+                border-radius: 26px;
+                border-color: transparent;
+                outline: none;
+                font-family: 'Averta Demo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #070814;
+                cursor: pointer;
+                transition: 1s ease;
+            }
+        }
+        &-btn:hover button{
+            background-color: #F99400;
+            transition: 1s ease;
+
+        }
+    }
+
+
+}
+
+.career-dark {
+    background-color: #070814;
+    padding: 5% 9.375%;
+
+    &-h1 {
+        color: white;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 36px;
+        font-family: 'Averta';
+
+    }
+
+    &-bottom {
+        display: flex;
+        margin-top: 8%;
+        padding-bottom: 8%;
+        width: 100%;
+        justify-content: space-between;
+
+        &-element {
+            display: flex;
+            align-items: center;
+            width: 30%;
+
+            p {
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 30px;
+                font-family: 'Averta Demo';
+                color: white;
+                margin-left: 3%;
+            }
+        }
+
+    }
+}
+
+.career-white {
+    h2 {
+        font-family: 'Averta';
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 72px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        padding-left: 9.375%;
+        padding-top: 8%;
+
+        span {
+            color: #F99400
+        }
+    }
+
+    &-bottom {
+        display: flex;
+        margin-top: 5%;
+        width: 100%;
+        justify-content: space-between;
+
+        &-left {
+            img {
+                margin-right: 150px;
+            }
+        }
+
+        &-right {
+            width: 30%;
+
+            &-elem {
+                display: flex;
+                margin-bottom: 4%;
+
+                &-one {
+                    font-family: 'Averta Demo';
+                    font-size: 25px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-right: 2%;
+                }
+
+                &-two {
+                    font-family: 'Averta';
+                    font-size: 25px;
+                    font-weight: 800;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+        }
+    }
+
+    &-rect {
+        margin-top: 10%;
+    }
+}
+
+.career-blue {
+    background-color: #0A66B5;
+    padding: 5% 9.375% 0 9.375%;
+    margin-bottom: 20%;
+
+    &-h1 {
+        font-family: 'Averta';
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 72px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #FFFFFF !important;
+        width: 675px;
+
+        &-span {
+            color: #F99400
+        }
+    }
+
+    &-p {
+        font-family: 'Averta Demo';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white !important;
+        margin: 5% 0;
+        width: 600px;
+    }
+
+    &-div {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        //   align-items: flex-start;
+        justify-content: space-between;
+
+        &-el {
+            display: flex;
+
+            &-btn {
+                width: 195px;
+                height: 40px;
+                background: #FFFFFF;
+                border-radius: 26px;
+                border-color: transparent;
+                outline: none;
+                font-family: 'Averta Demo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #070814;
+                cursor: pointer;
+                margin-right: 5%;
+                transition: 1s ease;
+
+                &:hover {
+                    background: #F99400;
+                    ;
+                    transition: 1s ease;
+                }
+            }
+
+            &-btn1 {
+                width: 340px;
+                height: 40px;
+                background: #FFFFFF;
+                border-radius: 26px;
+                border-color: transparent;
+                outline: none;
+                font-family: 'Averta Demo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #070814;
+                cursor: pointer;
+                margin-right: 5%;
+                transition: 1s ease;
+
+                &:hover {
+                    transition: 1s ease;
+                    background: #F99400;
+                    ;
+
+                }
+            }
+        }
+    }
+
+    &-end {
+        font-family: 'Averta Demo';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: white !important;
+        padding: 8% 0 4% 0;
+
+    }
+}
+
+// Career Main started
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .career-main {
+        display: block;
+        padding: 0 0 0 1%;
+
+        &-one {
+            max-height: 700px;
+            text-align: center;
+
+            h1 {
+                width: auto;
+            }
+
+            p {
+                width: auto;
+            }
+        }
+
+        &-img img {
+            width: 100%;
+        }
+    }
+
+    .career-dark {
+        padding: 8% 1% 0 1%;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10%;
+        }
+
+        &-bottom {
+            flex-direction: column;
+            text-align: center;
+
+            margin: 0 auto;
+
+            &-element {
+                display: block;
+                width: 100%;
+                margin-bottom: 10%;
+            }
+        }
+    }
+
+    .career-white {
+        overflow: hidden;
+
+        h2 {
+            text-align: center;
+        }
+
+        &-rect {
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 999;
+            margin-top: 0%;
+            width: 20%;
+        }
+
+        &-bottom {
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+
+            &-left {
+                img {
+                    width: 100%;
+                }
+            }
+
+            &-right {
+                width: 50%;
+                margin: 5% auto;
+
+                &-elem {
+                    margin-bottom: 8%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 481px) {
+    .career-main {
+        display: block;
+        padding: 0 0 0 1%;
+
+        &-one {
+            max-height: 700px;
+            text-align: center;
+
+            h1 {
+                width: auto;
+                font-size: 30px;
+            }
+
+            p {
+                width: auto;
+                font-size: 30px;
+                margin: 40px;
+            }
+        }
+
+        &-img img {
+            width: 100%;
+
+        }
+    }
+
+    .career-dark {
+        padding: 15% 1% 0 1%;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10%;
+        }
+
+        &-bottom {
+            flex-direction: column;
+            text-align: center;
+
+            margin: 0 auto;
+
+            &-element {
+                display: block;
+                width: 100%;
+                margin-bottom: 10%;
+
+                img {
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    .career-white {
+        overflow: hidden;
+
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        &-rect {
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 999;
+            margin-top: 0%;
+            width: 20%;
+        }
+
+        &-bottom {
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+
+            &-left {
+                img {
+                    width: 100%;
+                }
+            }
+
+            &-right {
+                width: 80%;
+                margin: 5% auto;
+
+                &-elem {
+                    margin-bottom: 8%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 320px) {
+    .career-main {
+        display: block;
+        padding: 0 0 0 1%;
+
+        &-one {
+            max-height: 700px;
+            text-align: center;
+
+            h1 {
+                width: auto;
+                font-size: 40px;
+            }
+
+            p {
+                width: auto;
+                font-size: 40px;
+                margin: 40px;
+            }
+        }
+
+        &-img img {
+            width: 100%;
+            margin-top: 150px;
+        }
+    }
+
+    .career-dark {
+        padding: 15% 1% 0 1%;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10%;
+        }
+
+        &-bottom {
+            flex-direction: column;
+            text-align: center;
+
+            margin: 0 auto;
+
+            &-element {
+                display: block;
+                width: 100%;
+                margin-bottom: 10%;
+
+                img {
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    .career-white {
+        overflow: hidden;
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        &-rect {
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 999;
+            margin-top: 0%;
+            width: 20%;
+        }
+
+        &-bottom {
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+
+            &-left {
+                img {
+                    width: 100%;
+                }
+            }
+
+            &-right {
+                width: 80%;
+                margin: 5% auto;
+
+                &-elem {
+                    margin-bottom: 8%;
+                }
+            }
+        }
+    }
+}

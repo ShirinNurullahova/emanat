@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Averta';
+    src: url('./assets/fonts/Averta.otf');
+}
+
+@font-face {
+    font-family: 'Averta Demo';
+    src: url('./assets/fonts/AvertaDemo.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1150px) and (max-width:1200px) {
+    header {
+        // padding: 0 9.375% 0 7.64%;
+        padding: 0 1.375% 0 1.64% !important;
+    }
+
+    .home-main {
+        padding: 0 4.65% 0 3.375% !important;
+    }
+
+    .home-black-section {
+        padding: 65px 3.375% 0 !important;
+    }
+
+    .home-features-section {
+        padding: 151px 1.375% 0 !important;
+    }
+
+    .home-pay-section {
+        padding: 200px 0 190px 4.375% !important;
+    }
+
+    .home-emekdasliq-image {
+        width: 500px !important;
+        margin-right: 30px !important;
+    }
+
+    .home-joinus-section {
+        padding: 72px 0 0 4.375% !important;
+    }
+
+    .home-news-section-heading {
+        padding: 0 3.15% 0 3.375% !important;
+    }
+
+    .home-news-section-container {
+        padding: 0 2.76% 0 2.98% !important;
+
+        &-card{
+            width: 340px !important;
+
+            &-image{
+                width: 300px !important;
+            }
+        }
+    }
+    
+
+    .footer-up,
+    .footer-bottom {
+        padding-left: 4.375% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1250px) {
+    header {
+        // padding: 0 9.375% 0 7.64%;
+        padding: 0 4.375% 0 2.64% !important;
+    }
+
+    .home-main {
+        padding: 0 9.65% 0 4.375% !important;
+    }
+
+    .home-black-section {
+        padding: 65px 3.375% 0 !important;
+    }
+
+    .home-features-section {
+        padding: 151px 3.375% 0 !important;
+    }
+
+    .home-pay-section {
+        padding: 200px 0 190px 4.375% !important;
+    }
+
+    .home-emekdasliq-image {
+        margin-right: 40px !important;
+    }
+
+    .home-joinus-section {
+        padding: 72px 0 0 4.375% !important;
+    }
+
+    .home-news-section-heading {
+        padding: 0 3.15% 0 3.375% !important;
+    }
+
+    .home-news-section-container {
+        padding: 0 2.76% 0 2.98% !important;
+    }
+
+    .footer-up,
+    .footer-bottom {
+        padding-left: 4.375% !important;
+    }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1300px) {
+    header {
+        // padding: 0 9.375% 0 7.64%;
+        padding: 0 6.375% 0 4.64% !important;
+    }
+
+    .home-main {
+        padding: 0 11.65% 0 6.375% !important;
+    }
+
+    .home-black-section {
+        padding: 65px 4.375% 0 !important;
+    }
+
+    .home-features-section {
+        padding: 151px 4.375% 0 !important;
+    }
+
+    .home-pay-section {
+        padding: 200px 0 190px 4.375% !important;
+    }
+
+    .home-joinus-section {
+        padding: 72px 0 0 4.375% !important;
+    }
+
+    .home-news-section-heading {
+        padding: 0 3.15% 0 3.375% !important;
+    }
+
+    .home-news-section-container {
+        padding: 0 2.76% 0 2.98% !important;
+    }
+
+    .footer-up,
+    .footer-bottom {
+        padding-left: 4.375% !important;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1360px) {
+    header {
+        // padding: 0 9.375% 0 7.64%;
+        padding: 0 7.375% 0 5.64% !important;
+    }
+
+    .home-main {
+        padding: 0 12.65% 0 7.375% !important;
+    }
+
+    .home-black-section {
+        padding: 65px 7.375% 0 !important;
+    }
+
+    .home-features-section {
+        padding: 151px 6.375% 0 !important;
+    }
+
+    .home-pay-section {
+        padding: 200px 0 190px 6.375% !important;
+    }
+
+    .home-joinus-section {
+        padding: 72px 0 0 6.375% !important;
+    }
+
+    .home-news-section-heading {
+        padding: 0 4.15% 0 4.375% !important;
+    }
+
+    .home-news-section-container {
+        padding: 0 3.76% 0 3.98% !important;
+    }
+
+    .footer-up,
+    .footer-bottom {
+        padding-left: 4.375% !important;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1430px) {
+    .home-news-section-heading {
+        padding: 0 8.15% 0 8.375% !important;
+    }
+
+    .home-news-section-container {
+        padding: 0 7.76% 0 7.98% !important;
+    }
+}
