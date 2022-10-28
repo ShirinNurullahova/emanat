@@ -8,6 +8,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 
 
+
 const ServicesSecond = () => {
   //  animation ref
   const hRef = useRef()
